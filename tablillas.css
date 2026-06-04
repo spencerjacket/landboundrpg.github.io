@@ -1,4 +1,5 @@
 .tablilla{margin: 0 auto;border: var(--border);background: var(--back);gap: 1px;display: flex;flex-direction: column;
+          b,strong{color:var(--maincolor);}
   br{display:none;}
   .contenido:has(dl.codebox){border:0; br{display:none;}}
   .contenido{background: var(--back2);padding: 20px;outline: var(--border);

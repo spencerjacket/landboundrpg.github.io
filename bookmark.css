@@ -1,0 +1,21 @@
+#bookmark{summary{cursor:help;font:900 var(--midfs) var(--sub);padding:10px;color:var(--maincolor);}
+article{border-bottom: var(--border);padding:10px;text-align:justify;font-size:var(--smallfs);}}
+button#bookmark-button {width:100%;cursor: pointer;background: var(--back3);border: var(--border) !important;margin: 0 auto;font: 900 var(--smallfs) var(--sub);text-transform: uppercase;padding: 5px 10px;color: var(--atext);}
+x-bookmark-button {flex-grow: 1;display: flex;}
+x-bookmark-list {display: block;margin-bottom: 20px;border-bottom: var(--border);}
+#bookmark-list a {font-size: var(--midfs);display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;padding: 0 10px;margin: 10px 0;width: 100%;}
+#bookmark-list div {display: flex;background: var(--neutralDark);}
+#bookmark-list input[type="checkbox"] {display: none;}
+#bookmark-list input[type="checkbox"] + div label {width: 80px;height: 20px;border-radius: 20px;position: relative;margin: auto 0;flex-shrink: 0;cursor: pointer;}
+x-bookmark-list input[type="checkbox"] + div label::before {font-size: 9px;color: #fff;height: 100%;display: flex;align-items: center;margin: 0 5px;text-transform: uppercase;}
+x-bookmark-list input[type="checkbox"] + div label::after {content: '';display: block;width: 16px;height: 16px;border-radius: 18px;background-color: #fff;position: absolute;top: 2px;}
+
+#bookmark-list input[type="checkbox"]:checked + div {opacity: 0.30;}
+#bookmark-list input[type="checkbox"]:checked + div label {background-color: #719E3B;}
+x-bookmark-list input[type="checkbox"]:checked + div label::before {content: 'respondido';justify-content: flex-end;}
+x-bookmark-list input[type="checkbox"]:checked + div label::after {left: 2px;}
+x-bookmark-list input[type="checkbox"]:not(:checked) + div label {background-color: #CB3F3F;}
+x-bookmark-list input[type="checkbox"]:not(:checked) + div label::before {content: 'pendiente';justify-content: flex-start;}
+x-bookmark-list input[type="checkbox"]:not(:checked) + div label::after {right: 2px;}
+x-bookmark-list button {flex-shrink: 0;padding: 0px !important;margin: auto 10px;display: flex;background: transparent;opacity: 0.25;cursor:pointer;}
+x-bookmark-list path {fill: var(--red);}

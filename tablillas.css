@@ -1,3 +1,29 @@
+.tablilla{margin: 0 auto;border: var(--border);background: var(--back);gap: 1px;display: flex;flex-direction: column;
+  br{display:none;}
+  .contenido:has(dl.codebox){border:0; br{display:none;}}
+  .contenido{background: var(--back2);padding: 20px;outline: var(--border);
+    br{display:block;}}
+h2{outline: var(--border);margin: 0;padding: 10px;font: 900 var(--midfs) var(--sub);background: var(--back3);width: 100%;text-transform: uppercase;text-align: left;}}
+
+.headertabl{outline: var(--border);display: flex; padding: calc(var(--gap) * 2);background: var(--maincolor10); align-items: center;gap: 20px;justify-content: flex-end;overflow: hidden;position: relative;
+  .ichead{i{font-size:32px;color:var(--maincolor);}}
+  
+  x{position:relative;display:flex;flex-direction:column;align-items: flex-end;text-transform:uppercase;
+    h1{margin: 0;padding: 0;color: var(--maincolor);font: 900 15px var(--sub);}
+    span{font: normal var(--smallfs) var(--sub);}}}
+
+.cctab{text-transform:uppercase;font-family:var(--sub);display:Flex;flex-direction:column;padding-right: calc(var(--gap) * 2);align-items:flex-end;justify-content:center;text-align:right;position:relative;overflow:hidden;
+sub{font: 900 var(--midfs) var(--sub);text-transform: uppercase;background: var(--back3);border: var(--border);padding: 2px 5px;color: var(--maincolor);}}
+
+.flexlist{display: Grid;outline: var(--border);margin: 20px;
+  b{background: var(--back3);outline: var(--border);padding: 10px;font: 900 var(--smallfs) var(--sub);text-align: right;color: var(--maincolor) !important;}}
+.box{max-height: 340px;overflow: auto; padding: 20px;outline: var(--border);background: var(--back2);display: flex;flex-direction: column;}
+
+fcbox{text-transform: uppercase;background:var(--back3);outline:var(--border);display:flex;align-items:stretch;
+  fc{background: rgb(from var(--groupr) r g b / 50%);outline: var(--border);padding: 5px 10px;font: bold var(--midfs) var(--sub);text-transform: uppercase;display: flex;align-items: center;justify-content: center;}
+pj {color:var(--groupr);flex: 1;text-align: right;padding: 5px;
+    a{color:var(--groupr);}}}
+
 .reginfo {margin: var(--gap) var(--gap) 0 var(--gap);display: flex;flex-direction: column;gap: 1px;}
 
 

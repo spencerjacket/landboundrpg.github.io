@@ -113,8 +113,8 @@ b{line-height: 80%;color:var(--maincolor)!important;}
     &:last-child{border-bottom:0;}}}
 
 
-.pjc[estado="disponible"]{.nombrec:before{content:"\f00c";font-family:"Font Awesome 6 Sharp";color:green;}}
-.pjc[estado="ocupado"]{opacity:0.5; .nombrec:before{content:"\f00d";font-family:"Font Awesome 6 Sharp";color:red;}}
+.pjc[estado="disponible"]{.nombrec b:before{content:"disponible";color:green;}}
+.pjc[estado="ocupado"]{opacity:0.5; .nombrec b:before{content:"no disponible";color:red;}}
 
 
 .hr{display:flex;align-items:stretch;justify-content:Space-between;border-bottom: var(--border);

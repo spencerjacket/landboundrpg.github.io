@@ -218,5 +218,5 @@ cancion{flex-grow:1;padding:var(--gap);font:var(--smallfs) var(--sub);outline:va
 @media (max-width: 500px) {grid-column:unset;}}
 
 .mbimg:nth-child(odd){filter:grayscale(1)}
-.mbimg{background: #7B886A;
+.mbimg{background: var(--group);
   img{filter:grayscale(1);mix-blend-mode: multiply;height: 120px;width: 100%;object-fit: cover;display: flex;}}

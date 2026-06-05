@@ -189,7 +189,7 @@ h1 {margin: 0;padding: var(--gap);font:900 12px/ 100% var(--fuente);text-align: 
 
 cancion:nth-child(odd){background:var(--back2);}
 
-cancion{flex-grow:1;padding:var(--gap);font:var(--smallfs) var(--sub);outline:var(--border); br{display:block;}
+cancion{flex-grow:1;padding:var(--gap);font:var(--smallfs) var(--sub);outline:var(--border); br{display:block!important;}
   &:before{content: "\f001";font-family: "Font Awesome 6 Sharp";float: left;font-size: 25px;color:var(--group);display: flex;align-items: center;justify-content: center;margin-right: 10px;}
   b{font-weight:900;text-transform:uppercase;}}
 

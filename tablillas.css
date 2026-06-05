@@ -183,7 +183,7 @@ h1 {margin: 0;padding: var(--gap);font:900 12px/ 100% var(--fuente);text-align: 
 
 .baul{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:350px;outline:var(--border);gap:1px;background:var(--back);
   br{display:none;}
-@media (max-width: 500px) {grid-template-columns:1fr;grid-template-rows:300px 150px}}
+@media (max-width: 500px) {grid-template-columns:1fr;grid-template-rows:300px 200px}}
 
 .canciones{display:flex;justify-content:space-around;gap:1px;flex-wrap:wrap;background:var(--back);}
 
@@ -214,9 +214,3 @@ cancion{flex-grow:1;padding:var(--gap);font:var(--smallfs) var(--sub);outline:va
 
 .portadainfo:hover .quotebl{opacity:1;}
 
-.moodboard{grid-column:1 / 3;display:grid;grid-template-columns: repeat(4, 1fr);padding:var(--gap);gap:var(--gap); 
-@media (max-width: 500px) {grid-column:unset;}}
-
-.mbimg:nth-child(odd){filter:grayscale(1)}
-.mbimg{background: var(--group);
-  img{filter:grayscale(1);mix-blend-mode: multiply;height: 120px;width: 100%;object-fit: cover;display: flex;}}

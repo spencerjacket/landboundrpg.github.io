@@ -105,7 +105,7 @@ details#libre{
 
 
 .nombrec{outline:var(--border);grid-area:nombre;font:900 var(--midfs) var(--sub);text-transform:uppercase;position:relative;padding:var(--gap);display:flex;justify-content:space-between;align-items:center;
-b{line-height: 80%;color:var(--maincolor)!important;}
+b{display: flex;flex-direction: column;line-height: 80%;color:var(--maincolor)!important;}
   &:before{font-size:var(--smallfs);border-left:var(--border);border-bottom:var(--border);padding:3px 5px;position:absolute;top:0;right:0;}}
 .datosc{background: var(--back2);grid-area:datos;padding:var(--gap);display:flex;flex-direction:column;gap:5px;border-top:var(--border);
   span{text-align: right;align-items:center;padding-bottom:5px;border-bottom:var(--border);display:flex;justify-content:space-between;
@@ -113,8 +113,8 @@ b{line-height: 80%;color:var(--maincolor)!important;}
     &:last-child{border-bottom:0;}}}
 
 
-.pjc[estado="disponible"]{.nombrec b:before{content:"disponible";color:green;}}
-.pjc[estado="ocupado"]{opacity:0.5; .nombrec b:before{content:"no disponible";color:red;}}
+.pjc[estado="disponible"]{.nombrec b:after{content:"disponible";color:green;font-size: var(--smallfs);font-weight: normal;}}
+.pjc[estado="ocupado"]{opacity:0.5; .nombrec b:after{content:"no disponible";color:red;font-size: var(--smallfs);font-weight: normal;}}
 
 
 .hr{display:flex;align-items:stretch;justify-content:Space-between;border-bottom: var(--border);

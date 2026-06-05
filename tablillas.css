@@ -195,7 +195,7 @@ cancion{flex-grow:1;padding:var(--gap);font:var(--smallfs) var(--sub);outline:va
 
 
 .keywords{background:var(--back);outline:var(--border);padding:var(--gap);    display: flex;justify-content: space-between;flex-wrap: wrap;gap:5px;
-  span{flex-grow:1;text-transform:uppercase;font:var(--smallfs) var(--sub);display:flex;align-items:center;justify-content:center;text-align:center;border:var(--border);padding:5px 10px;background:var(--back3);}}
+  span{flex-grow:1;text-transform:uppercase;font:var(--smallfs) var(--sub);display:flex;align-items:center;justify-content:center;text-align:center;border:var(--border);padding:5px 15px;background:var(--back3);}}
 
 .portadabl{padding:var(--gap);outline:var(--border);position:Relative;}
 .portadainfo{transition: all .7s ease-in-out 0s;position:absolute;inset:var(--gap);display:flex;align-items:center;justify-content:center;}

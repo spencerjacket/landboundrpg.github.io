@@ -181,7 +181,9 @@ h1 {margin: 0;padding: var(--gap);font:900 12px/ 100% var(--fuente);text-align: 
 .seccion{padding:0 10px 10px 10px;display:flex;flex-direction:column;gap:10px;
   b{margin:0 -10px;}}
 
-.baul{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:350px;outline:var(--border);gap:1px;background:var(--back);
+.postinside:has(.baul){padding:0!important;}
+
+.baul{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:350px;gap:1px;
   br{display:none;}
 @media (max-width: 500px) {grid-template-columns:1fr;grid-template-rows:300px 200px}}
 

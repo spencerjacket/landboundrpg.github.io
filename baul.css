@@ -19,7 +19,7 @@ tema{counter-increment: index;display:flex;position:Relative;padding-right:10px;
  &:before {position:absolute;left:0;top:0;bottom:0;background:var(--back);width:50px;color:var(--group);outline:var(--border);color: var(--group);font-weight: 900;font-variant-numeric: tabular-nums;content: counters(index, ".", decimal-leading-zero);display:flex;align-items:center;justify-content:center;}}
 
 .cajames {display: flex;background: Var(--back3);flex-direction: column; max-height: 165px;overflow: auto;border: var(--border);gap:1px;
-  h4cr {padding: 5px;text-transform: uppercase;font: Var(--smallfs) var(--sub);text-align: right;position: sticky;top: 0;background: var(--back);}
+  h4cr {padding: 5px;text-transform: uppercase;font: Var(--smallfs) var(--sub);text-align: right;position: sticky;top: 0;background: var(--back);z-index: 1;outline: var(--border);}
 tema a{font-size:var(--smallfs)!important;}
   tema:before{content:"\f023";font-family: "Font Awesome 6 Sharp";}
 }

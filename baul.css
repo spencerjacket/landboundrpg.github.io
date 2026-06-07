@@ -14,9 +14,8 @@ tema#evento b:before{content:"evento: ";color:var(--group);}
 .contenidocr {counter-reset: index;gap:1px;margin: var(--gap);display:flex;flex-direction:column;}
   
 tema{counter-increment: index;display:flex;position:Relative;padding-right:10px;outline:var(--border);flex-direction:column;padding-left:60px;text-transform:uppercase;
-  b{font:900 var(--midfs) var(--sub);padding-top:10px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
-  sub{font: var(--smallfs) var(--sub);padding-bottom:10px;overflow: hidden;
-white-space: nowrap;text-overflow: ellipsis;}
+  b{line-height: 95%;font:900 var(--midfs) var(--sub);padding-top:10px;}
+  sub{font: var(--smallfs) var(--sub);padding-bottom:10px;}
  &:before {position:absolute;left:0;top:0;bottom:0;background:var(--back);width:50px;color:var(--group);outline:var(--border);color: var(--group);font-weight: 900;font-variant-numeric: tabular-nums;content: counters(index, ".", decimal-leading-zero);display:flex;align-items:center;justify-content:center;}}
 
 .cajames {display: flex;background: Var(--back3);flex-direction: column; max-height: 165px;overflow: auto;border: var(--border);gap:1px;

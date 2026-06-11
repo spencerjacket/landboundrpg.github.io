@@ -181,7 +181,6 @@ h1 {margin: 0;padding: var(--gap);font:900 12px/ 100% var(--fuente);text-align: 
 .seccion{padding:0 10px 10px 10px;display:flex;flex-direction:column;gap:10px;
   b{margin:0 -10px;}}
 
-.postinside:has(.baul){padding:0!important;}
 
 .baul{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:350px;gap:1px;
   br{display:none;}

@@ -16,7 +16,7 @@ h2{outline: var(--border);margin: 0;padding: 10px;font: 900 var(--midfs) var(--s
 .cctab{text-transform:uppercase;font-family:var(--sub);display:Flex;flex-direction:column;padding-right: calc(var(--gap) * 2);align-items:flex-end;justify-content:center;text-align:right;position:relative;overflow:hidden;
 sub{font: 900 var(--midfs) var(--sub);text-transform: uppercase;background: var(--back3);border: var(--border);padding: 2px 5px;color: var(--maincolor);}}
 
-.flexlist{display: Grid;outline: var(--border);margin: var(--gap);
+.flexlist{display: Grid;outline: var(--border);padding: var(--gap);
   b{background: var(--back3);outline: var(--border);padding: 10px;font: 900 var(--smallfs) var(--sub);text-align: right;color: var(--maincolor) !important;}}
 .box{max-height: 340px;overflow: auto; padding: 20px;outline: var(--border);background: var(--back2);display: flex;flex-direction: column;}
 
@@ -25,17 +25,14 @@ fcbox{text-transform: uppercase;background:var(--back3);outline:var(--border);di
 pj {color:var(--groupr);flex: 1;text-align: right;padding: 5px;
     a{color:var(--groupr);}}}
 
-.reginfo {margin: var(--gap) var(--gap) 0 var(--gap);display: flex;flex-direction: column;gap: 1px;}
+.reginfo {margin: var(--gap);display: flex;flex-direction: column;gap: 1px;}
 
 
 .envo:has(.gridetails){
 blockquote{margin:var(--gap) var(--gap) 0 var(--gap);}}
 
 
-.gridetails{margin: var(--gap);border:var(--border);display:flex;flex-direction:column;background:var(--back2);gap:1px;}
-
-
-
+.gridetails{padding: var(--gap);outline: var(--border);display: flex;flex-direction: column;background: var(--back2);gap: 1px;}
 
 summary{cursor:crosshair;padding:var(--gap);outline:var(--border);display:flex;align-items:center;justify-content:space-between;font:var(--smallfs) var(--sub);text-transform:uppercase; list-style: none;
   b{font-weight:900;font-size:var(--midfs);display:flex;flex-direction:column;align-items:flex-end;}

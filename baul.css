@@ -50,7 +50,8 @@ tema#evento b:before{content:"evento: ";color:var(--group);}
   
 tema{counter-increment: index;display:flex;position:Relative;padding-right:10px;outline:var(--border);flex-direction:column;padding-left:60px;text-transform:uppercase;
   b{line-height: 95%;font:900 var(--midfs) var(--sub);padding-top:10px;}
-  sub{font: var(--smallfs) var(--sub);padding-bottom:10px;}
+  sub{font: var(--smallfs) var(--sub);padding-bottom:10px;
+fecha {font-weight: normal;background: var(--group);margin-right: 5px;padding: 0 5px;color: var(--back3);}}
  &:before {position:absolute;left:0;top:0;bottom:0;background:var(--back);width:50px;color:var(--group);outline:var(--border);color: var(--group);font-weight: 900;font-variant-numeric: tabular-nums;content: counters(index, ".", decimal-leading-zero);display:flex;align-items:center;justify-content:center;}}
 
 .cajames {display: flex;background: Var(--back3);flex-direction: column; max-height: 165px;overflow: auto;border: var(--border);gap:1px;

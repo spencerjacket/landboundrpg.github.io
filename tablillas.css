@@ -16,7 +16,7 @@ h2{outline: var(--border);margin: 0;padding: 10px;font: 900 var(--midfs) var(--s
 .cctab{text-transform:uppercase;font-family:var(--sub);display:Flex;flex-direction:column;padding-right: calc(var(--gap) * 2);align-items:flex-end;justify-content:center;text-align:right;position:relative;overflow:hidden;
 sub{font: 900 var(--midfs) var(--sub);text-transform: uppercase;background: var(--back3);border: var(--border);padding: 2px 5px;color: var(--maincolor);}}
 
-.flexlist{display: Grid;outline: var(--border);padding: var(--gap);
+.flexlist{display: Grid;outline: var(--border);padding: var(--gap);background:var(--back2);
   b{background: var(--back3);outline: var(--border);padding: 10px;font: 900 var(--smallfs) var(--sub);text-align: right;color: var(--maincolor) !important;}}
 .box{max-height: 340px;overflow: auto; padding: 20px;outline: var(--border);background: var(--back2);display: flex;flex-direction: column;}
 
